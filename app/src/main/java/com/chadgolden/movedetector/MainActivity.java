@@ -113,6 +113,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
             mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
             mSensorManager.registerListener(this, mAccelerometer , SensorManager.SENSOR_DELAY_NORMAL);
         } else {
+
         }
 
 
