@@ -84,6 +84,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
                     textMoved.setText("I moved!");
                 } else {
                     textMoved.setText("");
+                    // blahblahabalh
                 }
 
                 setTextViewText();
